@@ -1,0 +1,228 @@
+/* src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url(../fonts/Raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-BoldItalic";
+  src: url(../fonts/Raleway/static/Raleway-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url(../fonts/Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-BoldItalic";
+  src: url(../fonts/Poppins/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+body {
+  margin: 0;
+  background-color: #f9fcf6;
+  font-family: Roboto-Regular, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /*Added this because of horizontal scroll */
+}
+
+.header {
+  font-family: Raleway-Bold;
+  @apply text-themeGreen3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.meet-link {
+  color: white;
+}
+
+#dashboard .fc .fc-toolbar-title {
+  font-size: 1rem;
+}
+
+#dashboard .fc .fc-button-group {
+  font-size: 0.9rem;
+}
+
+#dashboard .fc .fc-col-header-cell-cushion {
+  font-size: 0.98rem;
+}
+
+@media (max-height: 900px) {
+#dashboard .fc .fc-toolbar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+#navbar-custom .MuiToolbar-root{
+    flex-direction: column;
+  }
+}
+
+#userAppointment .fc .fc-toolbar-title {
+  font-size: 1.5rem;
+}
+
+#userAppointment .fc-h-event .fc-event-title {
+  font-size: 0.9rem;
+}
+
+#userAppointment .fc .fc-button-group {
+  font-size: 0.9rem;
+}
+
+#userAppointment .fc .fc-col-header-cell-cushion {
+  font-size: 0.98rem;
+}
+
+#schedule_management .fc .fc-toolbar-title {
+  font-size: 1.5rem;
+}
+
+#schedule_management .fc .fc-button-group {
+  font-size: 0.925rem;
+}
+
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #ffc107;
+  border-radius: 5px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #ffc107;
+} */
+
+.animation-container:hover {
+  cursor: default;
+}
+
+.animation-container.hovered {
+  cursor: default;
+}
+
+.feature-shown {
+  opacity: 1;
+  transition: all 500ms ease-in-out;
+}
+
+.feature-hidden {
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+}
+
+.details-image {
+  border-bottom: 10px #fdb813 solid;
+}
+
+/* Default styles for buttons */
+.fc-header-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Media query for small screens */
+@media (max-width: 1800px) {
+  #dashboard .fc-header-toolbar {
+  flex-direction: column;
+  align-items: center;
+}}
+
+@media (max-width: 600px) {
+  .notification-item {
+    /* max-width: 200px; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Profile Custom CSS */
+@media (max-width: 1024px) {
+  .css-1v5c38p-MuiGrid-root{
+    flex-direction: column !important;
+  }
+  .css-1sbhhso{
+    display: flex;
+    justify-content: center;
+  }
+  .css-q9fxzi-MuiGrid-root{
+    justify-content: center;
+  }
+  .css-1skdfw6-MuiTypography-root{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.slick-dots{
+  bottom: -80px;
+}
+
+.ql-editor {
+  min-height: 200px;
+  overflow-y: auto;
+}
+
+.person-involved-input{
+  border-color: #296b3b !important;
+  border-radius: 4px !important;
+}

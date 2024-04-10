@@ -1,0 +1,24 @@
+/* Preloader.css */
+
+/* Default styles for larger screens */
+.preloader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .preloader-container {
+      /* Adjust styles for smaller screens */
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      /* Add more styles as needed */
+    }
+  }
+  
+  /* Add more media queries for other breakpoints if necessary */
+  

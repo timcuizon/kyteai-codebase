@@ -1,0 +1,44 @@
+{
+  "short_name": "Sam Won",
+  "name": "Sam Won",
+  "icons": [
+    {
+      "src": "logo_SamwonLogo.png",
+      "type": "image/png",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "logo_SamwonLogo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo_SamwonLogo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1E4C2B",
+  "background_color": "#ffffff", 
+  "screenshots": [
+    {
+     "src": "screenshot_SamWon-wide.png",
+      "sizes": "1400x804",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Sam Won Web"
+    },
+    {
+      "src": "screenshot_SamWon-narrow.png",
+       "sizes": "444x896",
+       "type": "image/png",
+       "form_factor": "narrow",
+       "label": "Sam Won Mobile"
+     }
+    ], 
+    "description" : "Sam Won revolutionizes counseling with AI-driven features and efficient management, offering personalized guidance and shaping the future of counseling."
+}
